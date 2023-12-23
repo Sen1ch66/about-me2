@@ -1,0 +1,121 @@
+*{
+    font-family: 'Sigmar', cursive;
+    margin: 0;
+    padding: 0;
+}
+.title{
+    height: 80px;
+    background-color: rgb(12, 8, 8);
+    color: blue;
+    padding-top: 25px;
+}
+.title nav{
+    position: absolute;
+    left: 900px;
+    top: 40px;
+}
+.a1, .a2, .a3{
+    text-decoration: none;
+    color: rgb(98, 98, 108);
+    padding: 10px;
+    border: 2px solid red;
+    background-color: rgba(234, 227, 227, 0.966);
+    border-radius: 15%;
+}
+.a1:hover, .a2:hover, .a3:hover{
+    background-color: rgb(62, 62, 201);
+    color: rgb(227, 68, 68);
+    border: 5px solid rgb(12, 214, 184);
+}
+header{
+    text-align: center;
+    justify-content: center;
+    background-image: url(./mainfotka.jpeg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 600px;
+}
+.tag{
+    display: table;
+    border: 2px solid black;
+    border-radius: 15px;
+    margin: 0 auto;
+    padding: 12px;
+}
+header img{
+    margin-top: 50px;
+    height: 125px;
+    width: 125px;
+    border-radius: 50%;
+    border: 3px solid rgb(212, 17, 17);
+    transition: all .5s;
+}
+header img:hover{
+    width: 200px;
+    height: 200px;
+}
+h1{
+    background-color: rgb(215, 229, 216);
+}
+header h4{
+    margin-top: 10px !important;
+    background-color: rgb(8, 17, 26);
+    color: rgb(22, 198, 60);
+}
+main{
+    display: flex;
+    flex-flow: row;
+    justify-content: space-around;
+    margin: 50px auto;
+    border-radius: 10px;
+}
+.card1{
+    padding: 20px;
+    width: 30%;
+    background-color: rgb(181, 189, 189);
+}
+.card2{
+    padding: 20px 20px 20px 30px;
+    width: 30%;
+    background-color: rgb(181, 189, 189);
+}
+.nav2{
+    padding: 2px;
+    color: rgb(138, 213, 100);
+    background-color: blue;
+    border: 1px solid rgb(13, 225, 244);
+    border-radius: 20%;
+    text-decoration: none;
+}
+.nav2:hover{
+    background-color: rgb(234, 37, 37);
+    border: 2px solid black;
+}
+footer{
+    width: 100%;
+    display:flex;
+    justify-content: center;
+    background-color: rgb(102, 192, 102);
+    border: 2px solid rgb(213, 63, 63);
+    height: 70px;
+}
+footer p{
+    font-size: 30px;
+    margin-right: 50px;
+    color: rgb(19, 19, 213);
+    font-style: oblique; 
+}
+footer a{
+    padding-left: 5px;
+}
+footer img{
+    width: 48px;
+    height: 48px;
+}
+footer img:hover{
+    width: 60px;
+    height: 60px;
+    border: 2px solid blue;
+}
+
